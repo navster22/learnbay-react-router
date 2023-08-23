@@ -13,6 +13,72 @@
   }
 }
 
+button {
+  display: inline;
+  padding: 10px;
+  margin: 5px;
+}
+
+.topBar {
+  background-color: tomato;
+  padding: 10px;
+}
+
+.topBarItem {
+  padding: 10px;
+  text-decoration: none;
+  color: white;
+  margin: 5px;
+  font-size: 20px;
+}
+
+.topBarItem:hover {
+  background-color: rgb(247, 113, 89);
+  cursor: pointer;
+}
+
+.addBlogForm {
+  display: flex;
+  flex-direction: column;
+  padding: 0px 50px 0px 50px;
+  justify-content: space-around;
+}
+
+.addBlogForm > input[type=text] {
+  padding: 10px;
+  margin-bottom: 15px;
+}
+
+.addBlogForm > textarea {
+  padding: 10px;
+  margin-bottom: 15px;
+  height: 200px;
+}
+
+.addBlogForm > input[type=submit] {
+  padding: 10px;
+  margin-bottom: 15px;
+  background-color: rgb(122, 203, 0);
+  border: none;
+  font-size: 22px;
+  font-weight: 900;
+}
+
+.addBlogForm > input[type=submit]:hover {
+  cursor: pointer;
+}
+
+.aboutPage {
+  padding: 20px;
+}
+
+.blogCard {
+  margin: 15px;
+  padding: 10px;
+  box-shadow: 5px 5px 20px grey;
+  border-radius: 10px;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -26,6 +92,31 @@
 
 .App-link {
   color: #61dafb;
+}
+
+.docsComponent {
+  display: flex;
+}
+
+.sideBar {
+  width: 30%;
+  height: 100vh;
+  background-color: aquamarine;
+}
+
+.componentArea {
+  width: 70%;
+  height: 100vh;
+}
+
+.sideBarItem {
+  display: block;
+  text-decoration: none;
+}
+
+.sideBarItemActive {
+  background: black;
+  color: white;
 }
 
 @keyframes App-logo-spin {
